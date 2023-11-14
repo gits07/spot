@@ -2658,7 +2658,7 @@ p {
   }
 
   .heading__one {
-    font-size: 15em;
+    font-size: 14em;
     line-height: 0.9em;
   }
 
@@ -3771,7 +3771,7 @@ p {
   .heading__one {
     overflow: visible;
     width: auto;
-    font-size: 4.5em;
+    font-size: 3.5em;
     font-weight: 400;
     white-space: normal;
   }
