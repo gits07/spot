@@ -1238,12 +1238,25 @@ p {
   padding-top: 6em;
 }
 
+/* Limit the maximum height of the text container and enable scrolling */
+.card__content {
+  max-height: 300px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
 /* Media query for smaller screens (adjust max-width as needed) */
 @media only screen and (max-width: 600px) {
   .feature__cards {
     padding-top: 3em; /* Adjust the spacing for smaller screens */
   }
 }
+
+/* Adjust the maximum height for smaller screens if needed */
+  .card__content {
+    max-height: 200px; /* Adjust the maximum height as needed for smaller screens */
+  }
+}
+
 
 .default-wrapper {
   width: 90%;
