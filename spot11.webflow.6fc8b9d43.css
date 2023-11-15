@@ -1238,10 +1238,9 @@ p {
   padding-top: 6em;
 }
 
-/* Limit the maximum height of the text container and enable scrolling */
-.card__content {
-  max-height: 300px; /* Adjust the maximum height as needed */
-  overflow-y: auto;
+/* Adjust the height of the card */
+.feature-card {
+  height: 25em; /* Adjust the height as needed */
 }
 
 /* Media query for smaller screens (adjust max-width as needed) */
@@ -1251,9 +1250,9 @@ p {
   }
 }
 
-/* Adjust the maximum height for smaller screens if needed */
-  .card__content {
-    max-height: 200px; /* Adjust the maximum height as needed for smaller screens */
+ /* Adjust the height of the card for smaller screens */
+  .feature-card {
+    height: auto; /* Allow the card to adjust its height based on content */
   }
 }
 
