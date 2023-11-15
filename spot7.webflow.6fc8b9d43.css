@@ -2736,6 +2736,13 @@ p {
     font-size: 6em;
   }
 
+  .paragraph-spot {
+  font-size: 1.2em;
+  font-weight: 500;
+  max-width: 60%; /* You can adjust the max-width as needed */
+  margin: 0 auto; /* This centers the paragraph within the max-width */
+}
+
   .about__paragraph__wrapper {
     max-width: 60%;
   }
