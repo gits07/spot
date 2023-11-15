@@ -1246,6 +1246,10 @@ p {
   .feature__cards {
     padding-top: 1em; /* Adjust the spacing for smaller screens */
   }
+
+.feature-cards-wrapper {
+    padding-bottom: 1rem; /* Adjust the spacing at the bottom for smaller screens */
+  }
 }
 
 
