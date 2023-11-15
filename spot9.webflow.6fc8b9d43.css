@@ -1221,8 +1221,7 @@ p {
 
 .feature-cards-wrapper {
   position: relative;
-  padding-bottom: 2rem; /* Adjust as needed for spacing at the bottom */
-  overflow: hidden; /* Ensure content doesn't overflow */
+  padding-bottom: 0rem;
 }
 
 .text-style-button {
@@ -1236,13 +1235,13 @@ p {
 
 .feature__cards {
   position: relative;
-  padding-top: 2em; /* Adjust as needed for spacing at the top */
+  padding-top: 6em;
 }
 
 /* Media query for smaller screens (adjust max-width as needed) */
 @media only screen and (max-width: 600px) {
   .feature__cards {
-    padding-top: 1em; /* Adjust the spacing for smaller screens */
+    padding-top: 3em; /* Adjust the spacing for smaller screens */
   }
 }
 
