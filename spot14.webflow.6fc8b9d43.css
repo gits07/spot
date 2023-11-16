@@ -1223,7 +1223,6 @@ p {
 .feature-cards-wrapper {
   position: relative;
   padding-bottom: 2rem; /* Adjust as needed for spacing at the bottom */
-  overflow: hidden; /* Ensure content doesn't overflow */
 }
 
 .text-style-button {
